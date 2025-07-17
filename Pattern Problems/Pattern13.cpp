@@ -9,8 +9,7 @@ int c=1;
     for(i = 0;i <= n; i++){
 
         for(j = 0;j <i; j++){
-            cout << c ;
-            cout << " ";
+            cout << c << " ";
             c++;
         }
     cout << "\n";
