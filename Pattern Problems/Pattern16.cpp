@@ -5,13 +5,15 @@ using namespace std;
 void nForest(int n) {
 	// Write your code here.
 int i,j;
+char ch = 'A';
     for(i = 1;i <= n; i++){
 
         for(j = 0;j <i; j++)
         {
-            cout << "*";
+            cout << ch << " ";
         }
-    cout << "\n";
+    ch++;
+    cout << "\n" ;
     }
 }
 int main(){

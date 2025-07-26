@@ -2,14 +2,16 @@
 using namespace std;
 
 
-void nForest(int n) {
+void Pattern18(int n) {
 	// Write your code here.
 int i,j;
     for(i = 1;i <= n; i++){
-
+        char a ='A' +n -i ;
         for(j = 0;j <i; j++)
-        {
-            cout << "*";
+        {  
+
+            cout << " " << a;
+            a++; 
         }
     cout << "\n";
     }
@@ -20,6 +22,6 @@ int main(){
     cout << "Enter the Number of rows and columns";
     cin >> n;
 
-    nForest(n);
+    Pattern18(n);
     return 0;
 }
